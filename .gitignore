@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Raw play-by-play event store (large, not distributed) — only needed to rebuild.
+events/
+*.events.parquet
+
+# Note: data/ and assets/ ARE committed — the precomputed outputs are what make
+# the demo runnable without raw data.
